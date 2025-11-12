@@ -3,6 +3,7 @@
 def calcular_propina ():
     cuenta = (int(input("Ingreses el total de la cuenta: ")))
     
+
     if cuenta >= 100000:
         propina = cuenta * 0.10
     else: 
